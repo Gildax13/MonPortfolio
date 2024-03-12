@@ -9,9 +9,4 @@ export const Social_Icons = [
     image: "/LinkedIn.svg",
     alt: "LinkedIn",
   },
-  {
-    link: "https://twitter.com/Gildax13",
-    image: "/Twitter.svg",
-    alt: "Twitter",
-  },
 ];
