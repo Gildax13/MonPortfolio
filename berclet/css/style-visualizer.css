@@ -1,0 +1,98 @@
+
+/* -------------------------------- 
+
+Main Components 
+
+-------------------------------- */
+:root{
+  --main-color: #08C4F8;
+}
+
+.cd-product-viewer-wrapper {
+  text-align: center;
+  z-index: 1;
+  
+}
+
+.cd-product-viewer-wrapper .product-viewer {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  width: 700px;
+  height: auto;
+  margin-left: -20px;
+  z-index: 1;
+}
+
+.cd-product-viewer-wrapper .product-sprite {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  margin-top: -15%;
+  
+  /* our image sprite is composed by 16 frames */
+  width: 3600%;
+  background: url(../img/tourbleu.png) no-repeat center center;
+  background-size: 100%;
+  opacity: 0;
+  -webkit-transition: opacity 0.3s;
+  -moz-transition: opacity 0.3s;
+  transition: opacity 0.3s;
+  z-index: 1;
+}
+.cd-product-viewer-wrapper.loaded .product-sprite {
+  /* image sprite has been loaded */
+  opacity: 1;
+  cursor: ew-resize;
+  z-index: 1;
+}
+
+
+
+
+
+@-webkit-keyframes cd-bounce {
+  0% {
+    -webkit-transform: translateX(-50%) scale(0);
+  }
+  60% {
+    -webkit-transform: translateX(-50%) scale(1.1);
+  }
+  100% {
+    -webkit-transform: translateX(-50%) scale(1);
+  }
+}
+@-moz-keyframes cd-bounce {
+  0% {
+    -moz-transform: translateX(-50%) scale(0);
+  }
+  60% {
+    -moz-transform: translateX(-50%) scale(1.1);
+  }
+  100% {
+    -moz-transform: translateX(-50%) scale(1);
+  }
+}
+@keyframes cd-bounce {
+  0% {
+    -webkit-transform: translateX(-50%) scale(0);
+    -moz-transform: translateX(-50%) scale(0);
+    -ms-transform: translateX(-50%) scale(0);
+    -o-transform: translateX(-50%) scale(0);
+    transform: translateX(-50%) scale(0);
+  }
+  60% {
+    -webkit-transform: translateX(-50%) scale(1.1);
+    -moz-transform: translateX(-50%) scale(1.1);
+    -ms-transform: translateX(-50%) scale(1.1);
+    -o-transform: translateX(-50%) scale(1.1);
+    transform: translateX(-50%) scale(1.1);
+  }
+  100% {
+    -webkit-transform: translateX(-50%) scale(1);
+    -moz-transform: translateX(-50%) scale(1);
+    -ms-transform: translateX(-50%) scale(1);
+    -o-transform: translateX(-50%) scale(1);
+    transform: translateX(-50%) scale(1);
+  }
+}

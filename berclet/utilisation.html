@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Berclet - Utilisation du Berclet</title>
+    <link rel="icon" type="image/x-icon" href="img/icon.png">
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/style-utilisation.css">
+    
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-6R5Z7M5Y8H%22%3E"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-6R5Z7M5Y8H');
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mobile-detect/1.4.5/mobile-detect.min.js"></script>
+    <script>
+        var md = new MobileDetect(window.navigator.userAgent);
+        if (md.phone()) {
+            window.location.href = '/mobile'
+        }
+        console.log(md);
+    // ... see below
+    </script>
+
+</head>
+
+<body>
+
+    <!--==========NAV BAR==========-->
+
+    <nav class="top-nav-bar">
+        <form><input type="checkbox" id="switch" /><label for="switch">Toggle</label></form>
+        <div class="nav-links">
+            <ul>
+                <li><a href="/index.html">Accueil</a></li>
+                <li>|</li>
+                <li><a href=/carac.html>Caractéristiques</a></li>
+                <li>|</li>
+                <li class="active"><a href="/utilisation.html">Utilisation</a></li>
+                <li>|</li>
+                <li><a href="/apropos.html">À Propos</a></li>
+                <li>|</li>
+                <li><a href="/faq.html">F.A.Q</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!--==========SIDE BAR==========-->
+
+    <div class="sidenav">
+
+        <a href="https://www.instagram.com/berclet_fr/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://twitter.com/berclet_fr" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+        <a href="https://www.facebook.com/berclet" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+        <a href="https://discord.gg/hpRq2Pmd2e" target="_blank"><i class="fa-brands fa-discord"></i></a>
+        <!-- <a href="https://tiktok.com" target="_blank"><i class="fa-brands fa-tiktok"></i></a> -->
+
+    </div>
+
+    <!--========== DESIGN MIDDLE ==========-->
+
+    <!-- Container element -->
+    <header>
+        <div>
+            <h1>Comment utiliser Berclet</h1>
+            <p>👇 Scroll pour savoir comment utiliser le Berclet a son plein potentiel</p>
+        </div>
+    </header>
+    <main>
+        <ul id="cards">
+            <li class="card" id="card_1">
+                <div class="card__content">
+                    <div>
+                        <h2>Ajustement du son</h2>
+                        <p>Les sliders motorisés et brevetés permettent d'ajuster facilement le son de vos applications du bout des doigts. Berclet placé juste a coté de votre clavier, vous pourrez donc baisser ou augmenter le son de vos applications actives sans interrompre votre gameplay.</p>
+                    </div>
+                    <figure>
+                        <!-- <img src="img/Sliders_shot.gif"
+                            alt="Image description"> -->
+                            <video loop autoplay>
+                                <source src="img/sliders_resize.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                              </video>
+                    </figure>
+                </div>
+            </li>
+            <li class="card" id="card_2">
+                <div class="card__content_reverse">
+                    <figure>
+                        <!-- <img src="img/Boutons_bas.gif"
+                            alt="Image description"> -->
+                            <video loop autoplay>
+                                <source src="img/boutons_bas_resize.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                              </video>
+                    </figure>
+                    <div>
+                        <h2>Selection de l'application</h2>
+                        <p>Les boutons situés en bas de l'appareil vous permettent de jongler entre les applications et donc de gérer plusieurs applications en même temps. Vous avez peur de perdre vos réglages ? Ne vous inquiétez pas, le Berclet se souviendra de tous vos réglages et dès votre retour sur l'application, le slider se réajustera à la position à laquelle vous l'aviez réglé.</p>
+                    </div>
+                </div>
+            </li>
+            <li class="card" id="card_3">
+                <div class="card__content">
+                    <div>
+                        <h2>Selection du périphérique</h2>
+                        <p>Les boutons du haut ont été conçus pour ajuster le volume sonore de vos sorties audio. En ajustant le son de vos enceintes par exemple, vous modifierez ainsi le volume général de ce périphérique de sortie et toujours sans avoir à mettre votre jeu en pause.</p>
+                    </div>
+                     <figure>
+                        <!--<img src="img/Boutons_haut.gif"
+                            alt="Image description"> -->
+                            <video loop autoplay>
+                                <source src="img/bouton_haut_resize.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                              </video>
+                        </figure>
+                </div>
+            </li>
+        </ul>
+    </main>
+</body>
+
+<footer>
+    <p class="copyright">&copy Berclet - 2023 - Tous droits réservés - <a style=" color:white" href="/cgu.html">CGU</a>
+    </p>
+</footer>
+<script src="js/jquery-2.1.4.js"></script>
+<script src="js/jquery.mobile.custom.min.js"></script>
+<script src="js/scriptcarac.js"></script>
+
+
+</html>
