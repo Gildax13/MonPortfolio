@@ -52,7 +52,7 @@ const Projects: React.FC<{}> = () => {
               <div className="p-3">
                 <p className="text-white font-semibold text-xl">Berclet</p>
                 <p className="text-gray-500 text-[15px]">
-                  Développement des sites internet vitrines, teaser et boutique majoritairement en HTML, CSS, JS afin de mettre en valeur les caractéristiques du Berclet. Le site ici est une copie de l&apos;ancien site réaliser. Aujourd&apos;hui ce n'est plus celui-ci qui est en ligne.
+                  Développement des sites internet vitrines, teaser et boutique majoritairement en HTML, CSS, JS afin de mettre en valeur les caractéristiques du Berclet. Le site ici est une copie de l&apos;ancien site réaliser. Aujourd&apos;hui ce n&apos;est plus celui-ci qui est en ligne.
                 </p>
               </div>
             </div>
