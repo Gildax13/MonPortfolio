@@ -28,7 +28,7 @@ const Projects: React.FC<{}> = () => {
               />
               <div className="p-3">
                 <p className="text-white font-semibold text-xl">CG-Conception</p>
-                <p className="text-gray-500 text-[10px]">
+                <p className="text-gray-500 text-[15px]">
                   Concevoir le site internet de l&apos;entreprise CG-Conception, afin de mettre en avant leur projet. On y retrouvera aussi tout les savoir disponible au sein de l&apos;entreprise
                 </p>
               </div>
@@ -51,7 +51,7 @@ const Projects: React.FC<{}> = () => {
               />
               <div className="p-3">
                 <p className="text-white font-semibold text-xl">Berclet</p>
-                <p className="text-gray-500 text-[10px]">
+                <p className="text-gray-500 text-[15px]">
                   Développement des sites internet vitrines, teaser et boutique majoritairement en HTML, CSS, JS afin de mettre en valeur les caractéristiques du Berclet. Le site ici est une copie de l&apos;ancien site réaliser. Aujourd&apos;hui ce n'est plus celui-ci qui est en ligne.
                 </p>
               </div>
@@ -77,7 +77,7 @@ const Projects: React.FC<{}> = () => {
                 <p className="text-white font-semibold text-xl">
                   Assemblage.pro
                 </p>
-                <p className="text-gray-500 text-[10px]">
+                <p className="text-gray-500 text-[15px]">
                   Développement d&apos;un système de gestion des stocks en Symphony PHP. Vous trouverez mon mémoire de fin d&apos;année de Bachelor qui en parle en cliquant sur l&apos;image et retrouvez toutes les informations sur https://assemblage.pro
                 </p>
               </div>
@@ -102,7 +102,7 @@ const Projects: React.FC<{}> = () => {
                 <p className="text-white font-semibold text-xl">
                   Mediapilote
                 </p>
-                <p className="text-gray-500 text-[10px]">
+                <p className="text-gray-500 text-[15px]">
                   Développement d&apos;une landing page comme exercice pour un entretien d&apos;embauche. Le but était de réaliser cette page en moins de 48h (moins de 24h perso) en respectant des consignes bien précises. La page est réalisée complètement en HTML, CSS avec du JS.
                 </p>
               </div>
