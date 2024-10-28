@@ -103,7 +103,7 @@ const Projects: React.FC<{}> = () => {
                   Mediapilote
                 </p>
                 <p className="text-gray-500 text-[10px]">
-                  Développement d&apos;une landing page comme exercice pour un entretien d'embauche. Le but était de réaliser cette page en moins de 48h (moins de 24h perso) en respectant des consignes bien précises. La page est réalisée complètement en HTML, CSS avec du JS.
+                  Développement d&apos;une landing page comme exercice pour un entretien d&apos;embauche. Le but était de réaliser cette page en moins de 48h (moins de 24h perso) en respectant des consignes bien précises. La page est réalisée complètement en HTML, CSS avec du JS.
                 </p>
               </div>
             </div>
