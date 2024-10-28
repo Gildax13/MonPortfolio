@@ -84,6 +84,31 @@ const Projects: React.FC<{}> = () => {
             </div>
           </Link>
         </div>
+        <div className="flex-col flex md:flex-row ">
+          <Link
+            href="https://landingpage-test-phi.vercel.app/"
+            rel="noopener noreferrer"
+            target="_blank"
+            className="z-[1]"
+          >
+            <div className="flex-row flex mb-5">
+              <Image
+                src="/logomediapilote.png"
+                height={150}
+                width={200}
+                alt="mediapilote"
+              />
+              <div className=" p-3 ">
+                <p className="text-white font-semibold text-xl">
+                  Mediapilote
+                </p>
+                <p className="text-gray-500 text-[10px]">
+                  Développement d&apos;une landing page comme exercice pour un entretien d'embauche. Le but était de réaliser cette page en moins de 48h (moins de 24h perso) en respectant des consignes bien précises. La page est réalisée complètement en HTML, CSS avec du JS.
+                </p>
+              </div>
+            </div>
+          </Link>
+        </div>
       </div>
     </section>
   );
