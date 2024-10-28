@@ -37,7 +37,7 @@ const Projects: React.FC<{}> = () => {
           </div>
           <div className="flex-col flex md:flex-row ">
           <Link
-            href="/berclet/index.html"
+            href="https://site-fait-pour-berclet.vercel.app/"
             rel="noopener noreferrer"
             target="_blank"
             className="z-[1]"
